@@ -2,5 +2,8 @@
 images/highres/*
 
 lib/swiftmailer/*
-php/*
+php/confirm-mailer.php
+php/invite_list.json
+php/invite_reminder.json
+php/mailer.php
 
