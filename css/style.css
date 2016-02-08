@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'journalregular';
+  src: url("../fonts/journal/journal-webfont.eot");
+  src: url("../fonts/journal/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/journal/journal-webfont.woff") format("woff"), url("../fonts/journal/journal-webfont.ttf") format("truetype"), url("../fonts/journal/journal-webfont.svg#journalregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 12, /Users/ellen/Sites/eloped.us/css/style.scss */
+body {
+  margin: 0;
+  padding: 0; }
+
+p, address, time {
+    font: 2em/1.5 'Judson', 'Palatino', serif;
+    color: white;
+}
+
+p {
+  margin-bottom: .5em;
+}
+
+h2 {
+  color: white;
+  font: 4em 'journalregular';
+}
+
+a, a:visited, a:active {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* line 17, /Users/ellen/Sites/eloped.us/css/style.scss */
+.hero1, .announcement {
+  height: 75vh; }
+
+/* line 20, /Users/ellen/Sites/eloped.us/css/style.scss */
+.image1, .image2, .image3, .image4 {
+  height: 25vh; }
+
+/* line 22, /Users/ellen/Sites/eloped.us/css/style.scss */
+.hero1 {
+  background: url(../images/web/103_Ellen+Ning_wedding.jpg) center/cover no-repeat; }
+
+/* line 25, /Users/ellen/Sites/eloped.us/css/style.scss */
+.announcement {
+  background: url(../images/contemporary_china/contemporary_china.png);
+  border-left: 7px white solid;
+  overflow: hidden; }
+
+/* line 31, /Users/ellen/Sites/eloped.us/css/style.scss */
+.dateline, .announcement h1 {
+  transform: rotate(-18deg);
+  color: #555;
+  font-family: 'journalregular'; }
+
+/* line 37, /Users/ellen/Sites/eloped.us/css/style.scss */
+.dateline {
+  font-size: 3em; }
+
+/* line 41, /Users/ellen/Sites/eloped.us/css/style.scss */
+.announcement h1 {
+  font-size: 6vw;
+  text-align: center; }
+
+/* line 46, /Users/ellen/Sites/eloped.us/css/style.scss */
+.callout {
+  font-size: 16vw; }
+
+/* line 50, /Users/ellen/Sites/eloped.us/css/style.scss */
+.row2 [class^="col"] {
+  border: 5px solid white;
+  border-left: none; }
+
+/* line 55, /Users/ellen/Sites/eloped.us/css/style.scss */
+.image1 {
+  background: url(../images/web/012_Ellen+Ning_wedding.jpg) center/cover no-repeat; }
+
+/* line 56, /Users/ellen/Sites/eloped.us/css/style.scss */
+.image2 {
+  background: url(../images/web/029_Ellen+Ning_wedding.jpg) center/cover no-repeat; }
+
+/* line 57, /Users/ellen/Sites/eloped.us/css/style.scss */
+.image3 {
+  background: url(../images/web/006_Ellen+Ning_wedding.jpg) center/cover no-repeat; }
+
+/* line 58, /Users/ellen/Sites/eloped.us/css/style.scss */
+.image4 {
+  background: url(../images/web/001_Ellen+Ning_wedding.jpg) center/cover no-repeat; }
+
+/* line 60, /Users/ellen/Sites/eloped.us/css/style.scss */
+.fullscreen {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #D6A4A4 10%, #DAE2F8 90%); }
+
+/* line 64, /Users/ellen/Sites/eloped.us/css/style.scss */
+.circle {
+  background: url(../images/web/066_Ellen+Ning_wedding.jpg) center/cover no-repeat;
+  border-radius: 50%;
+  height: 90vh;
+  width: 90vh;
+  margin: 2em auto;
+  float: none;}
+
+/* line 73, /Users/ellen/Sites/eloped.us/css/style.scss */
+.coverimage1 {
+  background: url(../images/web/123_Ellen+Ning_wedding.jpg) center/cover no-repeat;
+  height: 100vh; }
+
+/* line 78, /Users/ellen/Sites/eloped.us/css/style.scss */
+.column1, .column2, .column3 {
+  border: 5px white solid;
+  height: 100vh; }
+
+/* line 83, /Users/ellen/Sites/eloped.us/css/style.scss */
+.column1 {
+  background: url(../images/web/110_Ellen+Ning_wedding.jpg) center/cover no-repeat; }
+
+/* line 84, /Users/ellen/Sites/eloped.us/css/style.scss */
+.column2 {
+  background: url(../images/web/045_Ellen+Ning_wedding.jpg) center/cover no-repeat;
+  border-right: none;
+  border-left: none; }
+
+/* line 89, /Users/ellen/Sites/eloped.us/css/style.scss */
+.column3 {
+  background: url(../images/web/094_Ellen+Ning_wedding.jpg) center/cover no-repeat; }
+
+div[class*="gallery"] {height: 33.4vh; border: 2.5px white solid;}
+
+section.gallery {border: 2.5px white solid;}
+
+.gallery1 {background: url(../images/web/035_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery2 {background: url(../images/web/036_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery3 {background: url(../images/web/087_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery4 {background: url(../images/web/111_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery5 {background: url(../images/web/033_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery6 {background: url(../images/web/050_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery7 {background: url(../images/web/059_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery8 {background: url(../images/web/055_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.gallery9 {background: url(../images/web/088_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+
+/* line 91, /Users/ellen/Sites/eloped.us/css/style.scss */
+.colophon {
+  background: linear-gradient(90deg, #c21500 10%, #ffc500 90%);
+  /* W3C */
+  height: 100vh;
+  padding: 5% 15%;}
+  
+  .colophon {
+	  padding-top: 40vh;
+  }
+  
+  .colophon p {
+	  font-size: 1em;
+  }
+
+  .invitation p, .invitation address, .invitation time {
+    margin: 0;
+  }
+
+  .btn {
+    line-height: 2;
+  }
+
+@media (max-width: 768px) {
+  p, address, time {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  /* line 98, /Users/ellen/Sites/eloped.us/css/style.scss */
+  .hero1, .announcement {
+    height: 100vh; }
+  /* line 102, /Users/ellen/Sites/eloped.us/css/style.scss */
+  .announcement {
+    border: none; }
+  /* line 106, /Users/ellen/Sites/eloped.us/css/style.scss */
+  .dateline {
+    padding-top: 4em; }
+  /* line 110, /Users/ellen/Sites/eloped.us/css/style.scss */
+  .announcement h1 {
+    font-size: 14vw;
+    text-align: center; }
+  /* line 115, /Users/ellen/Sites/eloped.us/css/style.scss */
+  .callout {
+    font-size: 30vw; }
+  /* line 119, /Users/ellen/Sites/eloped.us/css/style.scss */
+  .circle {
+    height: 90vw;
+    width: 90vw;
+    margin: 4em auto; } }
+
+/*# sourceMappingURL=style.css.map */

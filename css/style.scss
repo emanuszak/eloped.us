@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'journalregular';
+    src: url('../fonts/journal/journal-webfont.eot');
+    src: url('../fonts/journal/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/journal/journal-webfont.woff') format('woff'),
+         url('../fonts/journal/journal-webfont.ttf') format('truetype'),
+         url('../fonts/journal/journal-webfont.svg#journalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p, address, time {
+    font: 2em/1.5 'Judson', 'Palatino', serif;
+    color: white;
+}
+
+p {
+  margin-bottom: .5em;
+}
+
+h2 {
+  color: white;
+  font: 4em 'journalregular';
+}
+
+.hero1, .announcement {
+    height: 75vh;
+}
+.image1, .image2, .image3, .image4 {height: 25vh;}
+
+.hero1 {
+  background: url(../images/highres/103_Ellen+Ning_wedding.jpg) center / cover no-repeat;
+}
+.announcement {
+  background: url(../images/contemporary_china/contemporary_china.png);
+  border-left: 7px white solid;
+  overflow: hidden;
+}
+
+.dateline, .announcement h1 {
+  transform: rotate(-18deg);
+  color: #555;
+  font-family: 'journalregular';
+}
+
+.dateline {
+  font-size: 3em;
+}
+
+.announcement h1 {
+  font-size: 6vw;
+  text-align: center;
+}
+
+.callout {
+  font-size: 16vw;
+}
+
+.row2 [class^="col"] {
+  border: 5px solid white;
+  border-left: none;
+}
+
+.image1 {background: url(../images/highres/012_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.image2 {background: url(../images/highres/029_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.image3 {background: url(../images/highres/006_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.image4 {background: url(../images/highres/001_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+
+.fullscreen {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #D6A4A4 10%,  #DAE2F8 90%);
+}
+.circle {
+  background: url(../images/highres/066_Ellen+Ning_wedding.jpg) center / cover no-repeat;
+  border-radius: 50%;
+  height: 90vh;
+    width: 90vh;
+    margin: 2em auto;
+    float: none;
+}
+
+.coverimage1 {
+  background: url(../images/highres/123_Ellen+Ning_wedding.jpg) center / cover no-repeat;
+  height: 100vh;
+}
+
+.column1, .column2, .column3 {
+  border: 5px white solid;
+  height: 100vh;
+}
+
+.column1 {background: url(../images/highres/110_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+.column2 {
+  background: url(../images/highres/045_Ellen+Ning_wedding.jpg) center / cover no-repeat;
+  border-right: none;
+  border-left: none;
+}
+.column3 {background: url(../images/highres/094_Ellen+Ning_wedding.jpg) center / cover no-repeat;}
+
+.gallery1 {background: url(../images/highres/035_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+.gallery2 {background: url(../images/highres/036_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+.gallery3 {background: url(../images/highres/087_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+.gallery4 {background: url(../images/highres/111_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+.gallery5 {background: url(../images/highres/033_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+.gallery6 {background: url(../images/highres/050_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+.gallery7 {background: url(../images/highres/055_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+.gallery8 {background: url(../images/highres/059_Ellen+Ning_wedding.jpg) center / contain no-repeat;}
+
+.content {
+  background: linear-gradient(90deg, #FF512F 10%, #F09819 90%); /* W3C */
+  height: 100vh;
+  padding: 10% 20%;
+}
+
+.invitation p, .invitation address, .invitation time {
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .hero1, .announcement {
+        height: 100vh;
+    }
+
+    .announcement {
+        border:none;
+    }
+
+    .dateline {
+        padding-top: 4em;
+    }
+
+    .announcement h1 {
+      font-size: 14vw;
+      text-align: center;
+    }
+
+    .callout {
+      font-size: 30vw;
+    }
+
+    .circle {
+        height: 90vw;
+        width: 90vw;
+        margin: 4em auto;
+    }
+}
