@@ -1,6 +1,3 @@
-
-images/highres/*
-
 lib/swiftmailer/*
 php/confirm-mailer.php
 php/invite_list.json
